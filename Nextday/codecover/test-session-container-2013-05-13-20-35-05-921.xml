@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSessionContainer xmlns="http://www.codecover.org/xml/testsession-container" Date="1368448505916" TestSessionContainerId="654e38a1-4c72-49f2-8d1a-700ff5966ded" version="1.0">
+<SrcFileList>
+<SrcFile Content="&#13;&#10;import org.junit.Test;&#13;&#10;&#13;&#10;&#13;&#10;import junit.framework.TestCase;&#13;&#10;&#13;&#10;&#13;&#10;public class CalendarUnitTest extends TestCase {&#13;&#10;&#13;&#10;&#9;@Test&#13;&#10;&#9;public void testSetCurrentPos() {&#13;&#10;&#9;&#9;fail(&quot;Not yet implemented&quot;);&#13;&#10;&#9;}&#13;&#10;&#13;&#10;&#9;@Test&#13;&#10;&#9;public void testGetCurrentPos() {&#13;&#10;&#9;&#9;fail(&quot;Not yet implemented&quot;);&#13;&#10;&#9;}&#13;&#10;&#13;&#10;}&#13;&#10;" Filename="CalendarUnitTest.java" Intrnl_Id="1"/>
+</SrcFileList>
+<CritList>
+<CritListEntry Name="org.codecover.model.utils.criteria.LoopCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.BranchCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.ConditionCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.SynchronizedStatementCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.QMOCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.StatementCoverage" PluginName="org.codecover"/>
+</CritList>
+<BoolOpList/>
+<HierarchyLvlTypeList>
+<HierarchyLvlType EnglishName="class" IntrnlName="class" Intrnl_Id="2"/>
+<HierarchyLvlType EnglishName="method" IntrnlName="method" Intrnl_Id="3"/>
+<HierarchyLvlType EnglishName="default package" IntrnlName="default package" Intrnl_Id="4"/>
+</HierarchyLvlTypeList>
+<MASTRoot>
+<HierarchyLvl HierarchyLvlId="5" HierarchyLvlTypeId="4" Intrnl_Id="5" Name="default package">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="4" HierarchyLvlTypeId="2" Intrnl_Id="6" Name="CalendarUnitTest">
+<Header>
+<Loc EndOffset="114" SrcFileId="1" StartOffset="68"/>
+</Header>
+<LocList>
+<Loc EndOffset="285" SrcFileId="1" StartOffset="68"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="2" HierarchyLvlTypeId="3" Intrnl_Id="7" Name="testSetCurrentPos">
+<Header>
+<Loc EndOffset="160" SrcFileId="1" StartOffset="121"/>
+</Header>
+<LocList>
+<Loc EndOffset="198" SrcFileId="1" StartOffset="121"/>
+</LocList>
+<StmntSeq Intrnl_Id="8">
+<LocList>
+<Loc EndOffset="194" SrcFileId="1" StartOffset="166"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="CalendarUnitTest.java" Intrnl_Id="9">
+<LocList>
+<Loc EndOffset="194" SrcFileId="1" StartOffset="166"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="3" HierarchyLvlTypeId="3" Intrnl_Id="10" Name="testGetCurrentPos">
+<Header>
+<Loc EndOffset="242" SrcFileId="1" StartOffset="203"/>
+</Header>
+<LocList>
+<Loc EndOffset="280" SrcFileId="1" StartOffset="203"/>
+</LocList>
+<StmntSeq Intrnl_Id="11">
+<LocList>
+<Loc EndOffset="276" SrcFileId="1" StartOffset="248"/>
+</LocList>
+<BasicStmnt CovItemId="S2" CovItemPrefix="CalendarUnitTest.java" Intrnl_Id="12">
+<LocList>
+<Loc EndOffset="276" SrcFileId="1" StartOffset="248"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</MASTRoot>
+</TestSessionContainer>
